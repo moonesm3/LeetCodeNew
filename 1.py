@@ -1,3 +1,4 @@
+# Easy Problem: 1. Two Sum
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         for i in range(len(nums)):
