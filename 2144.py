@@ -14,4 +14,4 @@ class Solution:
 my_solution = Solution()
 print(my_solution.minimumCost([1, 2, 3])) # 5
 print(my_solution.minimumCost([6,5,7,9,2,2])) 
-print(my_solution.minimumCost([5,5])) # 10
+print(my_solution.minimumCost([5,5])) # 10git branch -a
