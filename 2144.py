@@ -1,3 +1,4 @@
+#Easy Problem: 2144. Minimum Cost of Buying Candies With Discount
 class Solution:
     def minimumCost(self, cost: list[int]) -> int:
         cost.sort(reverse=True)
