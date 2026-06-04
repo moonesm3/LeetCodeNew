@@ -1,7 +1,7 @@
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         words = s.split()
-        print(f"Words: {words}")
+        #print(f"Words: {words}")
         if words[-1] == '':
             return len(words[-2])
         return len(words[-1])
