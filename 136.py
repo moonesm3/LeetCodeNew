@@ -1,3 +1,4 @@
+# 136. Single Number
 class Solution:
     def singleNumber(self, nums: list[int]) -> int:
         for num in nums:
