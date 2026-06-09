@@ -6,3 +6,5 @@ The problems have three levels:
 ![Hard](https://img.shields.io/badge/Hard-E74C3C?style=flat-square)
 
 I started working on the easy problems first to then continue with the hardest ones... Well, till now issues have been set to achieve the goal sooner. :)
+
+55 Problems done!!
