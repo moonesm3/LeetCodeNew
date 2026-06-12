@@ -1,6 +1,5 @@
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
-        n = abs(n)
         m = bin(n)[2:]   
         l = [j for i in m for j in i]
         z = []
