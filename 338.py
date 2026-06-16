@@ -1,3 +1,4 @@
+#Brian Kernighan’s Algorithm
 class Solution:
     def countBits(self, n: int) -> list[int]:
         result = []
