@@ -9,3 +9,8 @@ I started working on the easy problems first to then continue with the hardest o
 
 75 Problems done!!
 Still all easy
+
+
+Challenges:
+* 1732.py
+* 1840.py
