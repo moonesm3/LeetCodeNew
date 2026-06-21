@@ -14,3 +14,5 @@ Still all easy
 Challenges:
 * 1732.py
 * 1840.py
+* 1833.py
+* 
