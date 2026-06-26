@@ -11,7 +11,7 @@ I started working on the easy problems first to then continue with the hardest o
 Still all easy
 
 
-Challenges:
+Challenges:    -- Need to be more consistent with this but well, I'm trying
 * 1732.py
 * 1840.py
 * 1833.py
