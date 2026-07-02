@@ -9,4 +9,4 @@ class Solution:
 my_solution = Solution()
 print(my_solution.canConstruct(ransomNote = "a", magazine = "b"))    #Output: False
 print(my_solution.canConstruct(ransomNote = "aaa", magazine = "baaa"))    #Output: True
-print(my_solution.canConstruct(ransomNote = "a", magazine = "ab"))    #Output: False
+print(my_solution.canConstruct(ransomNote = "a", magazine = "ab"))    #Output: True
