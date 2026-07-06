@@ -16,3 +16,4 @@ Challenges:    -- Need to be more consistent with this but well, I'm trying
 * 1840.py
 * 1833.py
 * 3286.py
+* 1288.py
