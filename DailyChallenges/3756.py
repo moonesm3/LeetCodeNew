@@ -19,7 +19,7 @@ class Solution:
                 prefix_sum.append(prefix_sum[-1] + digit)
                 pow10.append((pow10[-1] * 10) % MOD)
             count_nonzero[i + 1] = nonzero_count
-
+            
         answers = []
         for left, right in queries:
             start = count_nonzero[left]
