@@ -8,8 +8,6 @@ class Solution:
             else:
                 complement += "0"
         return int(complement, 2)
-        
-        
-        
+               
 my_solution = Solution()
 print(my_solution.findComplement(5))      #Output: 2
