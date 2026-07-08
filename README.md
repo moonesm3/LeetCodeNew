@@ -18,3 +18,4 @@ Challenges:    -- Need to be more consistent with this but well, I'm trying
 * 3286.py
 * 1288.py
 * 3754.py
+* 3756.py
