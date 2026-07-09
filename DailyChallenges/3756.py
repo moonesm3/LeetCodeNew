@@ -10,7 +10,7 @@ class Solution:
         # 10 ** i modulo MOD
         pow10 = [1]
         nonzero_count = 0
-
+        
         for i, ch in enumerate(s):
             if ch != "0":
                 digit = ord(ch) - ord("0")
@@ -32,7 +32,6 @@ class Solution:
             digit_sum = prefix_sum[end] - prefix_sum[start]
             answers.append((x * digit_sum) % MOD)
         return answers
-    
     
 my_solution = Solution()
 print(my_solution.sumAndMultiply(s = "10203004", queries = [[0,7],[1,3],[4,6]]))     #Output: [12340, 4, 9]
