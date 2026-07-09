@@ -7,7 +7,7 @@ The problems have three levels:
 
 I started working on the easy problems first to then continue with the hardest ones... Well, till now issues have been set to achieve the goal sooner. :)
 
-80 Problems done!!
+100 Problems done!!
 Still all easy
 
 
