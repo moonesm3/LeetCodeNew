@@ -4,10 +4,12 @@ class Solution:
         output = []
         possibilites = [0] * n
         group = 0
+
         for i in range(1, len(nums)):
             if abs(nums[i] - nums[i - 1]) > maxDiff:
                 group += 1
             possibilites[i] = group
+            
         for querie in queries:
             i = querie[0]
             j = querie[1]
