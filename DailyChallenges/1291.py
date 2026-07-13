@@ -1,15 +1,19 @@
 class Solution:
     def sequentialDigits(self, low: int, high: int) -> list[int]:
+        n = "123456789"
         l = []
-        Seq = [12, 23, 34, 45, 56, 67, 78, 89, 123, 234, 345, 456, 567, 
-               678, 789, 1234, 2345, 3456, 4567, 5678, 6789, 12345, 23456, 
-               34567, 45678, 56789, 123456, 234567, 345678, 456789, 1234567, 2345678, 3456789, 12345678, 23456789, 123456789]
-        for seq in Seq:
-            if seq in range(low, high + 1):
-                l.append(seq)
-        return l 
-        
-        
+        output = []
+        for i in range(len(n)):
+            for j in range(i + 1, len(n) + 1):
+                l.append(n[i:j])
+        for item in l:
+            number = int(item)
+            if number >= low and number <= high:
+                output.append(number)
+        output.sort()
+        return output
+                
+                
 my_solution = Solution()
 print(my_solution.sequentialDigits(low = 100, high = 300))   #Output:  [123,234]
 print(my_solution.sequentialDigits(low = 89, high = 234))   #Output:  [89,123,234]
