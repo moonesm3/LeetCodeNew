@@ -1,7 +1,8 @@
 class Solution:
     def findRelativeRanks(self, score: list[int]) -> list[str]:
         l = []
-        sc = sorted(score, reverse=True)
+        sc = sorted(score, reverse=True)  #True rank
+        
         for i in range(len(score)):
             rank = sc.index(score[i]) + 1
             if rank == 1:
