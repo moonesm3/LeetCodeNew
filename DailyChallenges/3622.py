@@ -12,4 +12,4 @@ class Solution:
 
 my_solution = Solution()
 print(my_solution.checkDivisibility(n = 99))   #Output: True
-print(my_solution.checkDivisibility(n = 23))   #Output: False
+print(my_solution.checkDivisibility(n = 23))   #Output: Falsex
